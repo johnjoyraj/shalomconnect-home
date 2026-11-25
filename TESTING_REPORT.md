@@ -32,6 +32,15 @@
 
 ---
 
-## 3. Pending Live Custom-Domain Tests (Post-DNS)
+## 3. Live Custom-Domain HTTPS Verification (Post-DNS)
 
-Once BigRock DNS records propagate and GitHub Pages / Python host TLS certificates are issued, test each `https://*.shalomconnect.in` subdomain for HTTPS, nested route refresh, login/auth redirects, and zero console errors.
+| Custom Domain | Repository | Live HTTPS Check | Notes |
+|---|---|---|---|
+| `https://shalomconnect.in/` | `shalomconnect-home` | **HTTP 200** | Apex A records + Enforce HTTPS active |
+| `https://connecthub.shalomconnect.in/` | `shalom-connecthub-india` | **HTTP 200** | CNAME + `VITE_BASE_PATH=/` + Enforce HTTPS active |
+| `https://family.shalomconnect.in/` | `rajfamily` | **HTTP 200** | CNAME + Enforce HTTPS active |
+| `https://store.shalomconnect.in/` | `Shalom` | **HTTP 200** | CNAME + Enforce HTTPS active |
+| `https://pray.shalomconnect.in/` | `prayforindia` | **HTTP 200** | CNAME + Enforce HTTPS active |
+| `https://school.shalomconnect.in/` | `school` | **HTTP 200** | CNAME + Enforce HTTPS active |
+| `https://billbook.shalomconnect.in/` | `billbook` | **HTTP 200** | GitHub Pages enabled + CNAME + Enforce HTTPS active |
+| `https://whatsapp.shalomconnect.in/` | `whatsapp-automation` | **Pending Cloud Host** | Python Flask app (`Procfile`); deploy to Render/Railway/VPS first |
