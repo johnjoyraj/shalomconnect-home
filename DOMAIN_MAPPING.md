@@ -13,4 +13,4 @@
 | `pray.shalomconnect.in` | Pray for India | `johnjoyraj/prayforindia` | GitHub Pages | Relative (`./`) | Live at `johnjoyraj.github.io/prayforindia/` |
 | `school.shalomconnect.in` | Multi-School Management SaaS | `johnjoyraj/school` | GitHub Pages | Relative (`./`) | Live at `johnjoyraj.github.io/school/` |
 | `billbook.shalomconnect.in` | BillBook SaaS | `johnjoyraj/billbook` | GitHub Pages (needs Pages enabled) | Relative (`./`) | Repo ready; Pages disabled (`404`) |
-| `whatsapp.shalomconnect.in` | WhatsApp Customer Automation | `johnjoyraj/whatsapp-automation` | **Python PaaS / VPS (NOT GitHub Pages)** | `/` (Flask app) | Local / Not yet cloud-deployed |
+| `whatsapp.shalomconnect.in` | WhatsApp Customer Automation | `johnjoyraj/whatsapp-automation` | Render (`shalom-whatsapp-automation.onrender.com`) | `/` (Flask app) | Live on Render; custom domain Verified (TLS cert provisioning) |

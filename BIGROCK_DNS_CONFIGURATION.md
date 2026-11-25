@@ -30,7 +30,7 @@ Before adding new records, inspect your existing BigRock DNS zone for `shalomcon
 | `CNAME` | `pray` | `johnjoyraj.github.io` | `3600` (1 hr) | Pray for India | `prayforindia` | Ready (Pages live) |
 | `CNAME` | `school` | `johnjoyraj.github.io` | `3600` (1 hr) | Multi-School Management SaaS | `school` | Ready (Pages live) |
 | `CNAME` | `billbook` | `johnjoyraj.github.io` | `3600` (1 hr) | BillBook SaaS | `billbook` | **Pending:** Enable GitHub Pages in `johnjoyraj/billbook` first |
-| `CNAME` or `A` | `whatsapp` | `<YOUR_PYTHON_HOST_TARGET>` *(e.g. Render/Railway CNAME or VPS IP)* | `3600` (1 hr) | WhatsApp Customer Automation (Flask/Gunicorn) | `whatsapp-automation` | **HOLD / DO NOT POINT TO GITHUB PAGES:** App is Python Flask, not static HTML |
+| `CNAME` | `whatsapp` | `shalom-whatsapp-automation.onrender.com` | `14400` (4 hrs) | WhatsApp Customer Automation (Render Flask/Gunicorn) | `whatsapp-automation` | **Added & Verified on Render** (`Certificate Pending`) |
 
 ---
 

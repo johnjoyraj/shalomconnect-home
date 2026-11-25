@@ -43,4 +43,4 @@
 | `https://pray.shalomconnect.in/` | `prayforindia` | **HTTP 200** | CNAME + Enforce HTTPS active |
 | `https://school.shalomconnect.in/` | `school` | **HTTP 200** | CNAME + Enforce HTTPS active |
 | `https://billbook.shalomconnect.in/` | `billbook` | **HTTP 200** | GitHub Pages enabled + CNAME + Enforce HTTPS active |
-| `https://whatsapp.shalomconnect.in/` | `whatsapp-automation` | **Pending Cloud Host** | Python Flask app (`Procfile`); deploy to Render/Railway/VPS first |
+| `https://whatsapp.shalomconnect.in/` | `whatsapp-automation` | **Verified on Render (TLS Pending)** | Deployed on Render (`https://shalom-whatsapp-automation.onrender.com`); `CNAME` added in BigRock & Verified on Render |
